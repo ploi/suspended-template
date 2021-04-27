@@ -1,0 +1,33 @@
+{
+  "name": "suspended-template",
+  "version": "1.0.0",
+  "description": "Suspended template for ploi.io",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Cannonb4ll@github.com/ploi-deploy/suspended-template.git"
+  },
+  "author": "Dennis Smink",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ploi-deploy/suspended-template/issues"
+  },
+  "homepage": "https://github.com/ploi-deploy/suspended-template#readme",
+  "dependencies": {
+    "laravel-mix": "^6.0.18"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "tailwindcss": "^2.1.2"
+  }
+}
